@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4: Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Herramientas DOM</h1>
+
+        <section id="modulo-repetidor" class="card">
+            <h2>1. Repetidor de Texto</h2>
+            <div class="input-group">
+                <label>Palabra: <input type="text" id="text-repetir" placeholder="Hola"></label>
+                <label>¿Cuántas veces?: <input type="number" id="num-repetir" value="8" min="1"></label>
+            </div>
+            <button id="btn-repetir">REPETIR!</button>
+            <div id="res-repetir" class="resultado"></div>
+        </section>
+
+        <section id="modulo-estilos" class="card">
+            <h2>2. Manipulador de Estilos</h2>
+            <div class="input-group">
+                <label>Elija un color: <input type="color" id="color-picker"></label>
+            </div>
+            <button id="btn-aplicar">APLICAR!</button>
+            <p id="texto-lorem" class="texto-demo">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique possimus incidunt ducimus officiis tempore blanditiis sapiente perferendis non.
+            </p>
+        </section>
+
+        <section id="modulo-calculadora" class="card">
+            <h2>3. Calculadora y Acumulado</h2>
+            <div class="input-group">
+                <label>Número 1: <input type="number" id="calc-num1" value="5"></label>
+                <label>Número 2: <input type="number" id="calc-num2" value="10"></label>
+            </div>
+            <button id="btn-calcular">CALCULAR!</button>
+            <div id="res-calculadora" class="resultado"></div>
+        </section>
+
+        <section id="modulo-inversor" class="card">
+            <h2>4. Inversor de Texto</h2>
+            <div class="input-group">
+                <label>Ingrese algo: <input type="text" id="text-invertir" placeholder="Holanda que talca"></label>
+            </div>
+            <button id="btn-invertir">INVERTIR!</button>
+            <div id="res-inversor" class="resultado"></div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
