@@ -43,10 +43,13 @@ Manipulación de Arrays y Strings.
 ## 🛠️ Estructura Técnica del Proyecto
 
 ```text
-├── index.html       # Estructura semántica con IDs únicos para selectores JS
-├── styles.css       # Diseño responsivo implementado con CSS Grid y Flexbox
-├── script.js        # Lógica de negocio, manejo de eventos (addEventListener) y validaciones
-└── README.md        # Documentación técnica
+M4_EP4/
+├── css/
+│   └── styles.css       # Hoja de estilos (Diseño responsivo y estética)
+├── js/
+│   └── script.js        # Lógica de manipulación del DOM y eventos
+├── index.html           # Estructura semántica principal
+└── README.md            # Documentación del proyecto
 ```
 
 ## 💻 Instalación y Uso
