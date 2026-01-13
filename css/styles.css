@@ -1,0 +1,75 @@
+:root {
+    --primary: #2c3e50;
+    --accent: #3498db;
+    --bg: #ecf0f1;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Diseño responsivo */
+    gap: 20px;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--primary);
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--accent);
+    white-space: pre-wrap; /* Mantiene saltos de línea */
+}
+
+.texto-demo {
+    padding: 10px;
+    border: 1px dashed #ccc;
+    margin-top: 10px;
+}
